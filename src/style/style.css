@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#kodex-main #kodex-codesec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(14, 14, 14);
+  padding: 10px;
+}
+#kodex-main #kodex-codesec .editor-container {
+  margin: 10px 10px;
+  height: 100%;
+}
+#kodex-main #kodex-codesec .editor-container .editor-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 15px;
+}
+#kodex-main #kodex-codesec .editor-container .editor-title p {
+  margin: 0px;
+}
+#kodex-main #kodex-codesec .editor-container .code-mirror-wrapper .CodeMirror {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#kodex-main #kodex-codeout {
+  height: 50vh;
+  background-color: #ddd;
+}/*# sourceMappingURL=style.css.map */
